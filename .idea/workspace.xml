@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36931b70-1773-42cb-9ca2-5a670fc3b082" name="Changes" comment="" />
+    <list default="true" id="36931b70-1773-42cb-9ca2-5a670fc3b082" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Activity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/errors/sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/errors/sql.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/header/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/test.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +24,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/itquelleframework" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fahrschule" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -38,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673616382593</updated>
-      <workItem from="1673616383734" duration="707000" />
+      <workItem from="1673616383734" duration="2199000" />
     </task>
     <servers />
   </component>

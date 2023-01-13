@@ -12,4 +12,18 @@ name=[0] ""
 is_param=1
 param_type=2
 
+--- END ------ 13.01.2023 14:47 Uhr ---
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.kunden' doesn't exist
+File: D:\xampp\htdocs\framework\app\Models\Kunden.php
+Line: 18
+SQL-Dump-Report: 
+SQL: [44] SELECT * FROM kunden WHERE id = :id LIMIT 10
+Sent SQL: [45] SELECT * FROM kunden WHERE id = '22' LIMIT 10
+Params:  1
+Key: Name: [3] :id
+paramno=-1
+name=[3] ":id"
+is_param=1
+param_type=2
+
 --- END ---

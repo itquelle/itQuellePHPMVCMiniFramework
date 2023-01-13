@@ -7,14 +7,13 @@ use Symfony\Component\Routing\RouteCollection;
 // Routes system
 $routes     = new RouteCollection();
 $methods    = [];
+$routeItems = [];
 
 // Loading with Attributes -> Controllers -> Add Route
 $buildRoutes = glob(__DIR__ . "/../app/Controllers/*.php", GLOB_BRACE);
 foreach ($buildRoutes as $key => $value) {
     $baseName = basename($value);
     $baseName = str_replace(".php", "", $baseName);
-
-    #echo $baseName . "\n";
 
     $className = '\\App\\Controllers\\' . $baseName;
     $classInstance = new $className();
@@ -33,6 +32,14 @@ foreach ($buildRoutes as $key => $value) {
             $attributes = $reflectionMethod->getAttributes(AppRoute::class);
             foreach ($attributes as $attribute) {
                 $base = $attribute->newInstance();
+
+                $routeItems[] = [
+                    "path" => $base->path,
+                    "name" => $base->name,
+                    "method" => $base->method,
+                    "action" => $base->action
+                ];
+
                 $routes->add(
                     $base->name,
                     new Route(

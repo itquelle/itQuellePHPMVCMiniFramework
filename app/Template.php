@@ -2,6 +2,9 @@
 namespace App;
 
 use Twig as TemplateEngine;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
 
 class Template{
 
@@ -43,7 +46,7 @@ class Template{
 
         try{
             echo $this->view->render($templateFile . ".twig", $this->templateAssignArrayItems);
-        }catch (\ErrorException $e){
+        }catch (\ErrorException|LoaderError|RuntimeError|SyntaxError $e){
             echo $e->getMessage();
         }
 

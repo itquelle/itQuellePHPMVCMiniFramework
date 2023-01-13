@@ -20,7 +20,8 @@ class Router
         // Routing can match routes with incoming requests
         $matcher = new UrlMatcher($routes, $context);
         try {
-            $matcher = $matcher->match($_SERVER['REQUEST_URI']);
+            // Remove (Get-Params)
+            $matcher = $matcher->match(explode("?", $_SERVER['REQUEST_URI'])[0]);
 
             // Cast params to int if numeric
             array_walk($matcher, function(&$param)

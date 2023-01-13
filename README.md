@@ -9,9 +9,9 @@ PHP 8.0.0 Apache
 
 ## Installation
 ```
-git clone https://github.com/itquelle/itquelleframework.git
+git clone https://github.com/itquelle/itQuellePHPMVCMiniFramework.git
 ```
-Or download the package from [Github](https://github.com/itquelle/itquelleframework).
+Or download the package from [Github](https://github.com/itquelle/itQuellePHPMVCMiniFramework).
 
 Then:
 1. Install a web server (e.g. Apache), with at least PHP 8.x
@@ -28,3 +28,17 @@ Then:
 ##### Use console.php only for development
 ### Create Controller
 ```php console.php make:controller TestController```
+
+##### List controllers
+```php console.php list:controller```
+
+##### Find controller
+```php console.php list:controller /test```
+
+## Database
+We use MySQL-PDO for the database setup, you can easily access it in any controller with
+```
+$this->db
+->prepare("UPDATE user SET user_name = ? WHERE id = ?")
+->execute(['itQuelle', $userId])
+```

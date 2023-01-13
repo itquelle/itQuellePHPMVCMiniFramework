@@ -13,6 +13,7 @@ class Activity extends Database{
 
         // @extend: template (twig)
         $this->view = new Template();
+
     }
 
 }

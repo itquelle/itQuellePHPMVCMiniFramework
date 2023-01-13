@@ -12,14 +12,23 @@ class PageController extends Activity {
     #[AppRoute('/', method: 'GET', name: 'home')]
 	public function onCreate(RouteCollection $routes){
 
-        $kunden = new Kunden();
-
         $this->view->assign([
-            "kunden_items" => $kunden->getUsers(limit: 10)
+            "name" => "Ben"
         ]);
 
         $this->view->render("index");
 
 	}
+
+    #[AppRoute('/test', method: 'GET', name: 'hometest', action: 'onCreateText')]
+    public function onCreateText(RouteCollection $routes){
+
+        $this->view->assign([
+            "name" => "Ben"
+        ]);
+
+        $this->view->render("index");
+
+    }
 
 }
