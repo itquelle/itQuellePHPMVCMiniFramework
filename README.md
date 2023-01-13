@@ -42,3 +42,11 @@ $this->db
 ->prepare("UPDATE user SET user_name = ? WHERE id = ?")
 ->execute(['itQuelle', $userId])
 ```
+
+## Extra template functions
+##### CDNJS
+###### Remove from the copied CDNJS URL: https://cdnjs.cloudflare.com/ajax/libs/
+```
+{{ cdnjs('name...', cache?, tag?) }}
+{{ cdnjs('photoswipe/5.3.4/photoswipe.min.css', true)|raw }}
+```

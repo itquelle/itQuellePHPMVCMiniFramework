@@ -10,6 +10,7 @@ RewriteRule (.+) public/$1 [L]
 
 # Assets Folder (Config)
 RewriteRule assets/(.+)? views/@assets/$1 [L]
+RewriteRule package/(.+)? views/@package/$1 [L]
 
 # Route all other requests
 RewriteRule (.*) public/index.php?route=$1 [L,QSA]

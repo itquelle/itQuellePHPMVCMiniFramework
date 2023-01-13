@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36931b70-1773-42cb-9ca2-5a670fc3b082" name="Changes" comment="">
+    <list default="true" id="36931b70-1773-42cb-9ca2-5a670fc3b082" name="Changes" comment="1.0">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Activity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/errors/sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/errors/sql.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/header/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/header/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/test.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +44,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673616382593</updated>
-      <workItem from="1673616383734" duration="2199000" />
+      <workItem from="1673616383734" duration="3402000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0">
+      <created>1673618691211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673618691211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
 </project>
