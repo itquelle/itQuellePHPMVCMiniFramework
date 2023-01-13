@@ -1,0 +1,21 @@
+<?php
+namespace App\Controllers;
+
+use App\Activity;
+use App\Attributes\AppRoute;
+use Symfony\Component\Routing\RouteCollection;
+
+class {ControllerName} extends Activity {
+
+    #[AppRoute('/route', method: 'GET', name: 'home')]
+	public function onCreate(RouteCollection $routes){
+
+        $this->view->assign([
+            "test" => "Hi!"
+        ]);
+
+        $this->view->render("test");
+
+	}
+
+}

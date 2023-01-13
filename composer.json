@@ -1,0 +1,17 @@
+{
+    "name": "itquelle/framework",
+    "description": "itQuelle Framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "symfony/routing": "^4.4",
+        "symfony/http-foundation": "^4.4",
+        "twig/twig": "v3.4.3",
+      "ext-pdo": "*"
+    }
+}
+
