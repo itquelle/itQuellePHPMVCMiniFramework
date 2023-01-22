@@ -19,6 +19,8 @@ Then:
 3. Make sure your Apache web server is started, and open a web browser
 4. Open the index page, in most cases with an offline web server you can access this through "localhost", if you are using a subdirectory, include it, and make sure that the subdirectory has been set in the app config.
 
+## Install jQuery for Typescript
+
 ## Controller template
 ```
 /config/make_controller.txt
