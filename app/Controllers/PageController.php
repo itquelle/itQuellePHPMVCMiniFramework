@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use App\Activity;
 use App\Attributes\AppRoute;
-use App\Models\Kunden;
 use Symfony\Component\Routing\RouteCollection;
 
 class PageController extends Activity {
